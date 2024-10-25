@@ -5,25 +5,22 @@ public class NewClient {
     public static void main(String[] args) {
         Random random = new Random();
 
-        int s = random.nextInt(50);
-        NewInterface array = new NewArray(s);
+        int size = 50;
+        NewInterface array = new NewArray(size);
 
-        for (int i = 0; i < s; i++) {
+        for (int i = 0; i < size; i++) {
             array.insert(random.nextLong(50));
         }
 
         array.display();
-        long Found = random.nextLong(s);
-        if (array.find(Found)) {
-            System.out.println("Значение " + Found + " было найдено.");
+        long serchVal = random.nextLong(size);
+        if (array.find(serchVal)) {
+            System.out.println("Удалось найти значение. " + serchVal);
         } else {
-            System.out.println("Не удалось найти значение. " + Found);
+            System.out.println("Не удалось найти значение. " + serchVal);
         }
-        System.out.println("Количество элементов в массиве:");
-        array.getSize();
-        System.out.println("Максимальный элемент массива:");
-        array.getMax();
-        System.out.println("Минимальный элемент массива:");
-        array.getMin();
+        System.out.println("Количество элементов в массиве:" + array.getSize());
+        System.out.println("Максимальный элемент в массиве:" + array.getMax());
+        System.out.println("Минимальный элемент в массиве:" + array.getMin());
     }
 }

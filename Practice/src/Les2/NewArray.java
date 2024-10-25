@@ -51,31 +51,31 @@ public class NewArray implements NewInterface {
         System.out.println();
     }
 
-    public void getSize() {
+    public int getSize() {
         int count = 0;
         for (int i = 0; i < a; i++) {
             count ++;
         }
-        System.out.println(count);
+        return count;
     }
 
-    public void getMax() {
+    public int getMax() {
         int maxElem = 0;
         for (int i = 0; i < a; i++){
             if (array[i] > maxElem) {
                 maxElem = (int) array[i];
             }
         }
-        System.out.println(maxElem);
+        return maxElem;
     }
 
-    public void getMin() {
+    public long getMin() {
         long minElem = array[0];
         for (int i = 0; i < a; i++){
             if(array[i] < minElem){
                 minElem = (int) array[i];
             }
         }
-        System.out.println(minElem);
+        return minElem;
     }
 }

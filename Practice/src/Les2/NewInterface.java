@@ -5,7 +5,7 @@ public interface NewInterface {
     void insert(long value);
     boolean delete(long value);
     void display();
-    void getSize();
-    void getMin();
-    void getMax();
+    int getSize();
+    long getMin();
+    int getMax();
 }
