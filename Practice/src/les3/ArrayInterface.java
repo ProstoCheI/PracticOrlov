@@ -1,4 +1,4 @@
-package les3;
+package Les3;
 
 public interface ArrayInterface {
     boolean contains(long searchValue);

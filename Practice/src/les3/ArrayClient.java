@@ -1,4 +1,4 @@
-package les3;
+package Les3;
 
 import java.util.Random;
 

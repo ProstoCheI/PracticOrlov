@@ -1,4 +1,4 @@
-package les3;
+package Les3;
 
 public abstract class ParentLongArray implements ArrayInterface {
     protected final long[] array; // Массив для хранения значений
