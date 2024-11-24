@@ -25,7 +25,7 @@ public class NewClient {
         bubbleArray.bubbleSort();
         end = System.currentTimeMillis();
         bubbleArray.display();
-        System.out.printf("Время выполнения: %d млс \n", end - start);
+        System.out.printf("Время выполнения: %d мс \n", end - start);
 
         System.out.println("\nInsertion");
         insertionArray.display();
@@ -33,7 +33,7 @@ public class NewClient {
         insertionArray.insertionSort();
         end = System.currentTimeMillis();
         insertionArray.display();
-        System.out.printf("Время выполнения: %d млс \n", end - start);
+        System.out.printf("Время выполнения: %d мс \n", end - start);
 
         System.out.println("\nSelection");
         selectionArray.display();
@@ -41,6 +41,6 @@ public class NewClient {
         selectionArray.selectionSort();
         end = System.currentTimeMillis();
         selectionArray.display();
-        System.out.printf("Время выполнения: %d млс \n", end - start);
+        System.out.printf("Время выполнения: %d мс \n", end - start);
     }
 }
