@@ -8,4 +8,5 @@ public interface QueueInterface {
     boolean isFull();
     int size();
     void display();
+    long peekMin();
 }

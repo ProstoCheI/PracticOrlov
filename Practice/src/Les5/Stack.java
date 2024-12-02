@@ -23,7 +23,13 @@ public class Stack implements StackInterface{
     }
 
     public char pop() {
-        return stackArray[top--];
+        if (isEmpty()) {
+            System.out.println("Стек пуст");
+            return 0;
+        }
+        else {
+            return stackArray[top--];
+        }
     }
 
     public char peek() {
