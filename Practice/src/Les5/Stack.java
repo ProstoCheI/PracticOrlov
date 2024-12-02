@@ -1,8 +1,6 @@
 package Les5;
 
-import java.io.IOException;
-
-public class Stack implements StackInterface{
+public class Stack implements StackImpl {
     private int maxSize;
     private char[] stackArray;
     private int top;

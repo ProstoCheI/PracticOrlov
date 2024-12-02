@@ -1,6 +1,6 @@
 package Les5;
 
-public interface QueueInterface {
+public interface QueueImpl {
     void insert(long j);
     long remove();
     long peekFront();

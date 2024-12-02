@@ -1,6 +1,6 @@
 package Les5;
 
-public class Queue implements QueueInterface{
+public class Queue implements QueueImpl {
     private int maxSize;
     private long[] queArray;
     private int front;

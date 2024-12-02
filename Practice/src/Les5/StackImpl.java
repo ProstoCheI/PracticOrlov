@@ -1,6 +1,6 @@
 package Les5;
 
-public interface StackInterface {
+public interface StackImpl {
     void push(char j);
     char pop();
     char peek();

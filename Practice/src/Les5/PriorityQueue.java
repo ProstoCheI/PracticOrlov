@@ -1,6 +1,6 @@
 package Les5;
 
-public class PriorityQueue implements QueueInterface{
+public class PriorityQueue implements QueueImpl {
     // Элементы массива сортируются по значению ключа,
     // от максимумa (0) до минимума (maxSize-1)
     private int maxSize;
